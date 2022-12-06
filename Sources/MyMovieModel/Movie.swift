@@ -15,12 +15,12 @@ public struct MoviesResponse: Codable {
 // MARK: - Movie
 public struct Movie: Codable, Identifiable, Hashable {
     public let adult: Bool
-    public let backdropPath: String?
+    public let imagePath,backdropPath: String?
     public let genreIDS: [Int]
     public let id: Int
     public let originalTitle, overview: String
     public let popularity: Double
-    public let imagePath, releaseDate, title: String
+    public let releaseDate, title: String
     let video: Bool
     let voteAverage: Double
     let voteCount: Int
