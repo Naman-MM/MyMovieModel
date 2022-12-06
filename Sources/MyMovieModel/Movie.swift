@@ -49,6 +49,6 @@ extension Movie {
     }
     
     public init? () {
-        self = Movie(adult: true, backdropPath: "/y5Z0WesTjvn59jP6yo459eUsbli.jpg", genreIDS: [27,53], id: 100000, originalTitle: "Demo Movie", overview: "After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night.  As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.", popularity: 4608.567, imagePath: "/wRKHUqYGrp3PO91mZVQ18xlwYzW.jpg", releaseDate: "2022-10-06", title: "Demo Movie", video: false, voteAverage: 9.9, voteCount: 500)
+        self = Movie(adult: true, imagePath: "/wRKHUqYGrp3PO91mZVQ18xlwYzW.jpg", backdropPath: "/y5Z0WesTjvn59jP6yo459eUsbli.jpg", genreIDS: [27,53], id: 100000, originalTitle: "Demo Movie", overview: "After being resurrected by a sinister entity, Art the Clown returns to Miles County where he must hunt down and destroy a teenage girl and her younger brother on Halloween night.  As the body count rises, the siblings fight to stay alive while uncovering the true nature of Art's evil intent.", popularity: 4608.567, releaseDate: "2022-10-06", title: "Demo Movie", video: false, voteAverage: 9.9, voteCount: 500)
     }
 }
